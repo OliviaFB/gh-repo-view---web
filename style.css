@@ -1,0 +1,105 @@
+body {
+  background-color: #f5f4f4;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 200;
+  color: rgb(255,182,193);
+  font-size: 15px;
+/*  line-height: 20px;*/
+}
+
+h1 {
+  color: #ff9292;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 400;
+  font-size: 35px;
+/*  line-height: 50px;*/
+}
+
+h2 {
+  color: #aee1e1;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+}
+
+a {
+  color: #aee1e1;
+  text-decoration: none;
+}
+
+p {
+  text-align: justify;
+  margin: 17px;
+  margin-bottom: 40px;
+}
+
+.btn-pink {
+  background-color: #ff9292;
+  color: white;
+  font-size: 15px;
+  padding: 15px 20px;
+  border-radius: 4px;
+
+}
+
+.btn-pink:hover {
+  background-color: #ff9292;
+  text-decoration: underline;
+}
+
+.container {
+  width: 700px;
+  margin: 60px auto;
+}
+
+.card-white {
+  background: white;
+  padding: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.fab {
+  color: #ff9292;
+  font-size: 32px;
+}
+
+.fab:hover {
+  color: #ffe8e8;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
